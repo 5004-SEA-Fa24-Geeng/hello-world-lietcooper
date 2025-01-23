@@ -19,7 +19,7 @@ capacity.
   
 Did you use any external resources (you do not have to cite in class material)? (Cite them below)
 
-* No
+* Java Documentation. https://docs.oracle.com/en/java/. Accessed 2025-01-22.
 
 
 (Optional) What was your favorite part of the assignment?
