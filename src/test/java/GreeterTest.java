@@ -40,10 +40,6 @@ public class GreeterTest {
     private static final Greeter greeter3 = new Greeter(NAME_ONE);
     private static final Greeter greeter4 = new Greeter(NAME_TWO, 3);
 
-
-
-
-
     /**
      * Tests the constructor, making sure it throws an exception if the locality is out of range
      */
