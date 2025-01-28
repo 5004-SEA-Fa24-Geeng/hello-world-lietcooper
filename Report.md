@@ -17,9 +17,38 @@ classDiagram
     AlohaWorld --> ConsoleView: uses
     ConsoleView --> Greeter: uses
     class AlohaWorld {
+        -AlohaWorld()
         +main(String[] args): void
     }
     class ConsoleView {
+        -Scanner SCANNER
+        -List<String> LOCALITY_OPTIONS
+        +ConsoleView()
+        +getName(): String
+        +getLocality(): int
+        +checkRunAgain(): boolean
+        +printGreeting(): void
+    }
+    class Greeter {
+        -String name
+        -int locality
+        -List<String> loaclityList
+        -int HAWAII
+        -int CHINA
+        -int ITALY
+        -int DEFAULT_LOCALITY
+        +Greeter(String name)
+        +Greeter(String name, int loality)
+        +getName(): String
+        +getLocality(): int
+        +setLocality(int locality): void
+        +greet(): String
+        +greet(boolean asciiOnly): String
+        +getLocalityString(): String
+        +hashCOde(): int
+        +equals(Object obj): boolean
+        +toString(): String
+        +getLocalityList(): List<String>
         
     }
 ```
